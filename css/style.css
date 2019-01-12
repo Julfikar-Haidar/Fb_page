@@ -1,0 +1,216 @@
+/*font-family: 'Open Sans', sans-serif;*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #E1E5EF;
+}
+h1,h1,h3,p{
+	margin: 0;
+	padding: 0;
+}
+/*++++header start+++*/
+header{
+	background: #3B5998;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header_left{
+	width: 20%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.header_left{
+	color: #fff;
+	font-size: 20px;
+	font-weight: semi-bold;
+	line-height: 18px;
+}
+.header_right{
+	width: 60%;
+	float: right;
+	margin: 10px 0
+}
+.name{
+	float: left;
+	width: 29%;
+	margin-left: 183px;;
+}
+label{
+	font-weight: 400;
+	font-size: 12px;
+	color: #fff;
+}
+.password{
+	float: left;
+	width: 31%;
+}
+.password a{
+	font-size: 12px;
+	color: #ddd;
+	text-decoration: none;
+}
+.password a:hover{
+	text-decoration: underline;
+}
+.login{
+	margin-top: 23px;
+	background-color: #3B5998;
+	color: #fff;
+	border: 1px solid #365863;
+	border-radius: 2px;
+	transition: 0.5s;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;  font-weight: 700;
+
+}
+.login:hover{
+	background: #0760B9;
+	color: #fff;
+}
+/*header end*/
+/*body section start */
+#banner{
+padding-bottom: 40px;
+}
+.banner_left{
+	width: 55%;
+	float: left;
+}
+.banner_left h1{
+	margin-top: 36px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #0e385f;	
+
+}
+.banner_right{
+	width: 44%;
+	float: left;
+	overflow: hidden;
+	padding: 4px;
+
+}
+.banner_right_top{
+	/*border: 2px solid blue;*/
+	height: 300px;
+}
+.banner_right_top h1{
+	margin: 16px 0;
+	font-size: 36px;
+	line-height: 48px;
+	color: #333333;
+}
+.banner_right_top p{
+	font-size: 19px;
+	line-height: 25px;
+	color: #1d2129;
+	margin-bottom: 11px;
+}
+.f_name {
+	float: left;
+	padding: 10px 13px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	margin-right: 13px;
+	border-radius:5px 5px 5px 5px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	background: #fff;
+	font-weight: semi-bold;
+}
+.address{
+	width: 97%;
+	float: left;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-weight: 400;
+	border-radius:5px 5px 5px 5px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	background: #fff;
+}
+.banner_right_bottom{
+	height: 300px;
+	width: 100%;
+} 
+.birth {
+	font-size: 18px;
+	line-height: 24px;
+	color: #1d2129;
+	margin-bottom: 12px;
+}
+.birthday{
+	width: 237px;
+	float: left;
+	/*border: 2px solid;*/
+}
+.new{
+	font-weight: 300;
+	font-size: 12px;
+	float: left;
+	width: 215px;
+	color: #364899;
+}
+select{
+	padding: 7px 0;
+	background: #fff;
+}
+#r-b{
+	font-size: 12px;
+	height: 15px;
+	width: 15px;
+	margin-top: 28px;
+	margin-left: 9px;
+}
+.sign_up{
+	font-size: 12px;
+	color: #777777;
+	margin-top: 19px;
+	line-height: 16px;
+}
+.new1{
+	text-decoration: none;
+}
+.new1:hover{
+	text-decoration: underline;
+}
+.button_c{
+	background-color: #609F4D;
+	width:230px;
+	height:40px;
+	left:750px;
+	top:625px;
+	font-size:18px;
+	font-weight: bold;
+	color:#fff;
+	border-radius:5px 5px 5px 5px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: #609F4D;
+	cursor:pointer;
+	outline:none;
+	transition: 0.5s;
+	margin-top: 25px;
+}
+.button_c:hover{
+	text-decoration: underline;
+}
+.last_part{
+	margin-top: 30px;
+	font-size: 13px;
+	line-height: 17px;
+	color: #666666;
+}
+.one{
+	color: #365899;
+}
